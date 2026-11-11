@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ระบบแจ้งซ่อม งานอาคารสถานที่</title>
+<noscript><meta http-equiv="refresh" content="0; url=repair-system.html"></noscript>
+<style>
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;font-family:'Sarabun',system-ui,sans-serif;background:#fbfcf7;color:#27331f}
+  .box{text-align:center;padding:32px;border:1px solid #e3e8dc;border-radius:14px;background:#fff;border-top:5px solid #f4c430}
+  a{display:inline-block;margin-top:12px;background:#4f8a3c;color:#fff;text-decoration:none;padding:10px 22px;border-radius:10px;font-weight:500}
+</style>
+<script>
+  // ส่งต่อไปยังหน้าระบบแจ้งซ่อม พร้อมเก็บพารามิเตอร์เดิมไว้ (เช่น ?approve=... จากลิงก์ในแจ้งเตือน)
+  location.replace("repair-system.html" + location.search + location.hash);
+</script>
+</head>
+<body>
+  <div class="box">
+    <div>🔧 ระบบแจ้งซ่อม งานอาคารสถานที่</div>
+    <a href="repair-system.html">เข้าสู่ระบบแจ้งซ่อม</a>
+  </div>
+</body>
+</html>
